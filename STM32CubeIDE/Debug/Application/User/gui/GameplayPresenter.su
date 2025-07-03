@@ -1,0 +1,7 @@
+../../TouchGFX/gui/include/gui/gameplay_screen/GameplayPresenter.hpp:27:13:GameplayPresenter::~GameplayPresenter()	0	static
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/gameplay_screen/GameplayPresenter.cpp:20:6:virtual void GameplayPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/gameplay_screen/GameplayPresenter.hpp:27:13:virtual GameplayPresenter::~GameplayPresenter()	8	static
+../../TouchGFX/gui/include/gui/gameplay_screen/GameplayPresenter.hpp:27:13:virtual void* GameplayPresenter::_ZThn4_N17GameplayPresenterD1Ev()	0	static
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/gameplay_screen/GameplayPresenter.cpp:6:1:GameplayPresenter::GameplayPresenter(GameplayView&)	8	static
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/gameplay_screen/GameplayPresenter.cpp:30:6:void GameplayPresenter::onButtonPressed(uint8_t)	16	static
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/gameplay_screen/GameplayPresenter.cpp:61:5:int GameplayPresenter::getSong()	0	static

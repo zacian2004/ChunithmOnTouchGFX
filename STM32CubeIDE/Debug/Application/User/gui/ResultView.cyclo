@@ -1,0 +1,9 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/result_screen/ResultView.cpp:14:6:virtual void ResultView::tearDownScreen()	1
+../../TouchGFX/gui/include/gui/result_screen/ResultView.hpp:11:13:ResultView::~ResultView()	1
+../../TouchGFX/gui/include/gui/result_screen/ResultView.hpp:11:13:virtual ResultView::~ResultView()	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/result_screen/ResultView.cpp:4:1:ResultView::ResultView()	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/result_screen/ResultView.cpp:9:6:virtual void ResultView::setupScreen()	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/result_screen/ResultView.cpp:19:6:void ResultView::setResults(int, int, int, int)	1

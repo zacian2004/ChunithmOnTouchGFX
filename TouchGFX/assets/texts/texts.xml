@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.25.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_EVTL" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_EMEV" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Miss: &lt;%d%%&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_GRDV" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Good: &lt;%d%%&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_W6SM" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Perfect: &lt;%d%%&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_7WEQ" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Score: &lt;%d%%&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_OPYW" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Result</Translation>
+      </Text>
+      <Text Id="__SingleUse_15M9" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Return to song list</Translation>
+      </Text>
+      <Text Id="__SingleUse_V5D0" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Song 4</Translation>
+      </Text>
+      <Text Id="__SingleUse_3087" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Song 3</Translation>
+      </Text>
+      <Text Id="__SingleUse_HJRR" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Song 2</Translation>
+      </Text>
+      <Text Id="__SingleUse_9GEX" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Song 1</Translation>
+      </Text>
+      <Text Id="__SingleUse_QHPM" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Exit</Translation>
+      </Text>
+      <Text Id="__SingleUse_X42V" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Start</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

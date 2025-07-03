@@ -1,0 +1,6 @@
+../../TouchGFX/gui/include/gui/result_screen/ResultPresenter.hpp:28:13:ResultPresenter::~ResultPresenter()	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/result_screen/ResultPresenter.cpp:23:6:virtual void ResultPresenter::deactivate()	1
+../../TouchGFX/gui/include/gui/result_screen/ResultPresenter.hpp:28:13:virtual ResultPresenter::~ResultPresenter()	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/result_screen/ResultPresenter.cpp:11:6:virtual void ResultPresenter::activate()	1
+../../TouchGFX/gui/include/gui/result_screen/ResultPresenter.hpp:28:13:virtual void* ResultPresenter::_ZThn4_N15ResultPresenterD1Ev()	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/result_screen/ResultPresenter.cpp:5:1:ResultPresenter::ResultPresenter(ResultView&)	1

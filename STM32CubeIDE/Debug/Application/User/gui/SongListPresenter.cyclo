@@ -1,0 +1,6 @@
+../../TouchGFX/gui/include/gui/songlist_screen/SongListPresenter.hpp:28:13:SongListPresenter::~SongListPresenter()	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/songlist_screen/SongListPresenter.cpp:13:6:virtual void SongListPresenter::activate()	1
+../../TouchGFX/gui/include/gui/songlist_screen/SongListPresenter.hpp:28:13:virtual SongListPresenter::~SongListPresenter()	1
+../../TouchGFX/gui/include/gui/songlist_screen/SongListPresenter.hpp:28:13:virtual void* SongListPresenter::_ZThn4_N17SongListPresenterD1Ev()	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/songlist_screen/SongListPresenter.cpp:4:1:SongListPresenter::SongListPresenter(SongListView&)	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/songlist_screen/SongListPresenter.cpp:23:6:void SongListPresenter::selectSong(uint8_t)	1

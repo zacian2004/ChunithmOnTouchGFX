@@ -1,0 +1,8 @@
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/model/Model.cpp:4:1:Model::Model()	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/model/Model.cpp:14:6:void Model::tick()	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/model/Model.cpp:19:6:void Model::setFinalScore(int)	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/model/Model.cpp:24:5:int Model::getFinalScore() const	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/model/Model.cpp:29:6:void Model::setStats(int, int, int)	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/model/Model.cpp:36:5:int Model::getPerfectCount() const	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/model/Model.cpp:41:5:int Model::getGoodCount() const	1
+C:/TouchGFXProjects/Chunithm2.0/TouchGFX/gui/src/model/Model.cpp:46:5:int Model::getMissCount() const	1

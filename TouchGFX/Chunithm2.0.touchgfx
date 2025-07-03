@@ -1,0 +1,631 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Home",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "Logo",
+            "X": 85,
+            "Y": 68,
+            "Width": 71,
+            "Height": 92,
+            "RelativeFilename": "__generated\\alternate_theme_images_logos_touchgfx.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "startButton",
+            "X": 13,
+            "Y": 198,
+            "Width": 214,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_medium_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_medium_round_action.png",
+            "TextId": "__SingleUse_X42V",
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\medium_round_action.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "startButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "SongList"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "SongList",
+        "Components": [
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "exitButton",
+            "X": 102,
+            "Y": 40,
+            "Width": 138,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_small_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_small_round_normal.png",
+            "TextId": "__SingleUse_QHPM",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\small_round_normal.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "song1Button",
+            "Y": 110,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "TextId": "__SingleUse_9GEX",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "song2Button",
+            "Y": 160,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "TextId": "__SingleUse_HJRR",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "song3Button",
+            "Y": 210,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "TextId": "__SingleUse_3087",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "song4Button",
+            "Y": 260,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "TextId": "__SingleUse_V5D0",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "exitButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "song1Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "song1Clicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "song2Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "song2Clicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "song3Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "song3Clicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "song4Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "song4Clicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Gameplay"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Gameplay",
+        "CanvasBufferSize": 3600,
+        "Components": [
+          {
+            "Type": "BoxWithBorder",
+            "Name": "lane1",
+            "Width": 60,
+            "Height": 247,
+            "BorderColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "lane2",
+            "X": 60,
+            "Width": 60,
+            "Height": 247,
+            "BorderColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "lane3",
+            "X": 120,
+            "Width": 60,
+            "Height": 247,
+            "BorderColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "lane4",
+            "X": 180,
+            "Width": 60,
+            "Height": 247,
+            "BorderColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "Button",
+            "Name": "lane1Button",
+            "Y": 247,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_tiny_fill_active.png",
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\tiny_fill_active.json",
+            "Clickable": true
+          },
+          {
+            "Type": "Button",
+            "Name": "lane2Button",
+            "X": 60,
+            "Y": 247,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_tiny_fill_active.png",
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\tiny_fill_active.json",
+            "Clickable": true
+          },
+          {
+            "Type": "Button",
+            "Name": "lane3Button",
+            "X": 120,
+            "Y": 247,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_tiny_fill_active.png",
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\tiny_fill_active.json",
+            "Clickable": true
+          },
+          {
+            "Type": "Button",
+            "Name": "lane4Button",
+            "X": 180,
+            "Y": 247,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_tiny_fill_active.png",
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\tiny_fill_active.json",
+            "Clickable": true
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "tapNote",
+            "X": -30,
+            "Y": 223,
+            "Width": 60,
+            "Height": 24,
+            "Visible": false,
+            "Color": {
+              "Red": 255
+            },
+            "BorderColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderSize": 5
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "Y": 223,
+            "Width": 240,
+            "Height": 24,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndX": 240.0,
+            "LineWidth": 1.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "feedbackText",
+            "X": 74,
+            "Y": 71,
+            "Width": 92,
+            "Height": 24,
+            "TextId": "__SingleUse_EVTL",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Result"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lane1Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tapLane1"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lane2Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tapLane2"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lane3Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tapLane3"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lane4Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tapLane4"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Result",
+        "Components": [
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1",
+            "X": 13,
+            "Y": 215,
+            "Width": 214,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_medium_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_medium_round_action.png",
+            "TextId": "__SingleUse_15M9",
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\medium_round_action.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "resultText",
+            "X": 89,
+            "Y": 55,
+            "Width": 62,
+            "Height": 24,
+            "TextId": "__SingleUse_OPYW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "resultText_1",
+            "X": 76,
+            "Y": 79,
+            "Width": 73,
+            "Height": 24,
+            "TextId": "__SingleUse_7WEQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "resultText_2",
+            "X": 76,
+            "Y": 103,
+            "Width": 86,
+            "Height": 24,
+            "TextId": "__SingleUse_W6SM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "resultText_3",
+            "X": 76,
+            "Y": 127,
+            "Width": 68,
+            "Height": 24,
+            "TextId": "__SingleUse_GRDV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "resultText_4",
+            "X": 76,
+            "Y": 151,
+            "Width": 58,
+            "Height": 24,
+            "TextId": "__SingleUse_EMEV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "SongList"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Chunithm2.0",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Home",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}
